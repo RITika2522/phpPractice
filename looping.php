@@ -7,8 +7,32 @@
 </head>
 <body>
     <?php
-        
+        //for loop
+        /* 
+        $a=0;
+        $b=0;
 
+        for($i=0;$i<5;$i++){
+            $a += 10;
+            echo("a = $a <br>");
+            $b += 5;
+            echo("b = $b <br>");
+        }
+        echo("At the end of the loop a = $a and b = $b"); 
+        */
+
+        //while loop
+        /* 
+        //reverse looping
+        $i=0;
+        $num=50;
+        while($i < 10){
+            $num--;
+            $i++;
+        }echo("Loop stopped at i = $i and num = $num");
+        */
+
+        //do-while loop
         /* 
         // print divisible by 3 and 5
         $i =0;
