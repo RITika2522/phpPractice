@@ -41,9 +41,9 @@
         $salaries ['Jane'] = 2000;
         $salaries ['Doe'] = 3000;
 
-        echo "Salary of John is = $salaries['John'] <br/>";
-        echo "Salary of Jane is = $salaries['Jane'] <br/>";
-        echo "Salary of Doe is = $salaries['Doe'] <br/>";
+        echo "Salary of John is =". $salaries['John'] ."<br/>";
+        echo "Salary of Jane is = ".$salaries['Jane'] ."<br/>";
+        echo "Salary of Doe is =".$salaries['Doe'] ."<br/>";
 
     ?>
 </body>
